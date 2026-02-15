@@ -44,7 +44,7 @@ int showMode(Mode *m) {
 
 // fungsi menggambar papan dengan blok bergerak
 void petaEasy(int size) {
-    char board[32][32]; // batas maksimal ukuran 16x16 cukup aman
+    char board[32][32]; // batas maksimal ukuran 16x16
 
     // posisi awal blok
     int posX = 2, posY = 2;
@@ -185,4 +185,5 @@ int main() {
 
     return 0;
 }
+
 
